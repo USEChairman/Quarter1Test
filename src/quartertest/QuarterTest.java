@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author student
+ * @author Eric Carlson
  */
 public class QuarterTest {
 
@@ -25,6 +25,11 @@ public class QuarterTest {
         for (int i = 1; i < n + 1; i++) {
             System.out.println(i);
         }
+        if(n > 0) {
+        }
+        
+        double result = MathFunctions.SquareRootAndAddThree(n);
+        System.out.println(result);
 
     }
 
