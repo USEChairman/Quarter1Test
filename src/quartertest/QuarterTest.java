@@ -5,17 +5,15 @@
  */
 package quartertest;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 /**
- *
  * @author Eric Carlson
  */
 public class QuarterTest {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
 
         Scanner reader = new Scanner(System.in);
@@ -25,10 +23,17 @@ public class QuarterTest {
         for (int i = 1; i < n + 1; i++) {
             System.out.println(i);
         }
-        if(n > 0) {
+
+        System.out.println("Enter another number.");
+        int y = reader.nextInt();
+
+        List myList = new ArrayList();
+
+        if (y > 0) {
+            
         }
-        
-        double result = MathFunctions.SquareRootAndAddThree(n);
+
+        double result = MathFunctions.SquareRootAndAddThree(y);
         System.out.println(result);
 
     }
